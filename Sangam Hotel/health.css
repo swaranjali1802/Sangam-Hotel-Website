@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+* ::selection{
+    background-color: rgba(150, 7, 7, 0.648);
+    color: white;
+}
+img{
+    height: -0.5rem;
+    width: 12%;
+}
+.navBar .content{
+    height: 80px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -20px;
+   
+}
+.navBar .content .a1{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a1:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a2{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a2:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a3{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a3:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a4{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a4:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a5{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a5:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a6{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a6:hover{
+    border-bottom: 3px solid maroon;
+}
+.line2{
+    margin-top: 2px;
+    width: 25%; 
+    height: 1px;
+}
+.images{
+    background-image: url(./images/g12.jpg);
+    height: 150px;
+    width: 97%;
+    position: relative;
+    left: 15px;
+    border: 10px solid rgba(142, 141, 141, 0.548);
+ }
+ .images h1{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    color: white;
+ }
+ .gallery{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gallery .container .box{
+    position: relative;
+    border: 1px solid black;
+    height: 12rem;
+    width: 300px;
+    overflow: hidden;
+}
+.gallery .container .box:hover{
+    border: 8px solid rgba(128, 0, 0, 0.578);
+ 
+}
+.gallery .container .box img{
+    height: 100%;
+    width: 100%;
+    
+}
+.footer .last_con{
+    background-color: rgba(128, 0, 0, 0.582);
+    height: 100px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+ }
+ .last_con .a1{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a1:hover{
+     color: black;
+ }
+ .last_con .a2{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a2:hover{
+     color: black;
+ }
+ .last_con .a3{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a3:hover{
+     color: black;
+ }
+ .last_con .a4{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a4:hover{
+     color: black;
+ }
+ .last_con .a5{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a5:hover{
+     color: black;
+ }
+ .last_con .a6{
+     text-decoration: none;
+     color: white;
+ }
+ .last_con .a6:hover{
+     color: black;
+ }
+ 

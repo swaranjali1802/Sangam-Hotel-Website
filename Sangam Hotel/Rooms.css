@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+* ::selection{
+    background-color: rgba(150, 7, 7, 0.648);
+    color: white;
+}
+section .first{
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 100px;
+    width: 85%;
+    border-radius: 1px;
+    box-shadow: 1px 1px 2px 0px;
+}
+section .first .date1{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    
+}
+section .second{
+    position: absolute;
+    left: 400px;
+    top: 40px;
+}
+section .second .date2{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+section .third{
+    position: absolute;
+    left: 700px;
+    top: 40px;
+}
+section .third .drop{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+section .fourth{
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+section .fourth .drop1{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.sec1 .book{
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 300px;
+    width: 85%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 0px;
+}
+.sec1 .book img{
+    position: absolute;
+    top: 0px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.sec1 .h2{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.sec1 .h2 p{
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+.sec1 .h2 .p1{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.sec1 .h3{
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}
+.sec1 .h3 i{
+    position: absolute;
+    left: -25px;
+} 
+.sec1 .drop2{
+    position: absolute;
+    left: 1000px;
+    top: 420px;
+    height: 35px;
+    width: 130px;
+    background-color:rgb(52, 4, 52);
+    color: white;
+    text-align: center;
+}
+.sec1 .rs{
+    position: absolute;
+    left: 800px;
+    top:430px;
+}
+
+.sec2 .book{
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 300px;
+    width: 85%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 0px;
+}
+.sec2 .book img{
+    position: absolute;
+    top: 0px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.sec2 .h2{
+    position: absolute;
+    left: 500px;
+    top: 550px;
+}
+.sec2 .h2 p{
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+.sec2 .h2 .p1{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.sec2 .h3{
+    position: absolute;
+    left: 900px;
+    top: 600px;
+}
+.sec2 .h3 i{
+    position: absolute;
+    left: -25px;
+} 
+.sec2 .drop2{
+    position: absolute;
+    left: 1000px;
+    top: 750px;
+    height: 35px;
+    width: 130px;
+    background-color:rgb(52, 4, 52);
+    color: white;
+    text-align: center;
+}
+.sec2 .rs{
+    position: absolute;
+    left: 800px;
+    top:765px;
+}
+
+.sec3 .book{
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 300px;
+    width: 85%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 0px;
+}
+.sec3 .book img{
+    position: absolute;
+    top: 0px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.sec3 .h2{
+    position: absolute;
+    left: 500px;
+    top: 850px;
+}
+.sec3 .h2 p{
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+.sec3 .h2 .p1{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.sec3 .h3{
+    position: absolute;
+    left: 900px;
+    top: 920px;
+}
+.sec3 .h3 i{
+    position: absolute;
+    left: -25px;
+} 
+.sec3 .drop2{
+    position: absolute;
+    left: 1000px;
+    top: 1070px;
+    height: 35px;
+    width: 130px;
+    background-color:rgb(52, 4, 52);
+    color: white;
+    text-align: center;
+}
+.sec3 .rs{
+    position: absolute;
+    left: 800px;
+    top:1080px;
+}
+
+.sec4 .book{
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 300px;
+    width: 85%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 0px;
+}
+.sec4 .book img{
+    position: absolute;
+    top: 0px;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.sec4 .h2{
+    position: absolute;
+    left: 500px;
+    top: 1200px;
+}
+.sec4 .h2 p{
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+.sec4 .h2 .p1{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.sec4 .h3{
+    position: absolute;
+    left: 900px;
+    top: 1250px;
+}
+.sec4 .h3 i{
+    position: absolute;
+    left: -25px;
+} 
+.sec4 .drop2{
+    position: absolute;
+    left: 1000px;
+    top: 1400px;
+    height: 35px;
+    width: 130px;
+    background-color:rgb(52, 4, 52);
+    color: white;
+    text-align: center;
+}
+.sec4 .rs{
+    position: absolute;
+    left: 800px;
+    top:1410px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.footer .logo1{
+    position: absolute;
+    top: 1510px;
+}
+.footer .logo1 a{
+    color: white;
+    text-decoration: none;
+}
+.footer .icon {
+    color: white;
+    position: absolute;
+    left: 350px;
+}
+.footer .map{
+    position: absolute;
+    left: 850px;
+}

@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+* ::selection{
+    background-color: rgba(150, 7, 7, 0.648);
+    color: white;
+}
+img{
+    height: -0.5rem;
+    width: 12%;
+}
+.navBar .content{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -40px;
+    
+}
+.navBar .content .a1{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a1:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a2{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a2:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a3{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a3:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a4{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a4:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a5{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a5:hover{
+    border-bottom: 3px solid maroon;
+}
+.navBar .content .a6{
+    text-decoration: none;
+    color: black;
+}
+.navBar .content .a6:hover{
+    border-bottom: 3px solid maroon;
+}
+.line2{
+    margin-top: -10px;
+    width: 25%; 
+    height: 1px;
+    text-align: center;
+}
+.heading{
+    margin-top: 25px;
+    font-size: 25px;
+    color: rgb(116, 154, 14);
+    text-align: center;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first{
+    position: relative;
+    left: -300px;
+}
+.second{
+    position: absolute;
+    right: 50px;
+    top: 650px;
+}
+.luxury{
+    font-size: 25px;
+    margin-top: 50px;
+    color: rgb(246, 100, 84);
+    text-decoration: underline;
+}
+.firstSec .firstDiv>img{
+    height: 250px;
+    width: 380px;
+    padding: 10px;
+    margin: 10px;
+}
+.firstSec .firstDiv img:hover{
+    border: 5px solid rgba(165, 42, 42, 0.685);
+    /* transform: scale(1.6);
+    transition: 2s; */
+}
+.firstSec .name>span{
+    font-size: 20px;
+    margin: 120px;
+    color: rgb(106, 9, 9); 
+}
+.btn1{
+    width: 70px;
+    position: relative;
+    top: -30px;
+    right: 280px;
+    background-color:maroon;
+    color: white;
+    border: none;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+.btn2{
+    width: 70px;
+    position: relative;
+    top: -85px;
+    right: -120px;
+    background-color:maroon;
+    color: white;
+    border: none;
+}
+.btn2:hover{
+    background-color: white;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+.btn3{
+    width: 70px;
+    position: relative;
+    top: -145px;
+    right: -520px;
+    background-color:maroon;
+    color: white;
+    border: none;
+}
+.btn3:hover{
+    background-color: white;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+.footer{
+    margin-top: -80px;
+    height: 900px;
+    width: 100%;
+    background-color: rgba(147, 5, 5, 0.598);
+    
+}
+.footer .h2{
+    color: white;
+    text-align: center;
+    padding-top:50px;
+}
+.footer .img{
+    height: 800px;
+    width: 400px;
+    position: relative;
+    left: 500px;
+    padding-top: 30px;
+}
+.footer .img .txt{
+    font-size: 15px;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .sec1{
+    height: 280px;
+    width: 350px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 400px;
+}
+.footer .sec1:hover{
+    background-color: rgba(128, 0, 0, 0.189);
+}
+.footer .sec2{
+    height: 230px;
+    width: 350px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 430px;
+}
+.footer .sec2:hover{
+    background-color: rgba(128, 0, 0, 0.189);
+}
+.footer .last_con{
+   background-color: rgba(128, 0, 0, 0.386);
+   height: 100px;
+   width: 100%;
+   position: relative;
+   top: -100px;
+   text-align: center;
+   padding-top: 30px;
+   color: white;
+}
+.last_con .a1{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a1:hover{
+    color: black;
+}
+.last_con .a2{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a2:hover{
+    color: black;
+}
+.last_con .a3{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a3:hover{
+    color: black;
+}
+.last_con .a4{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a4:hover{
+    color: black;
+}
+.last_con .a5{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a5:hover{
+    color: black;
+}
+.last_con .a6{
+    text-decoration: none;
+    color: white;
+}
+.last_con .a6:hover{
+    color: black;
+}
